@@ -25,20 +25,20 @@ small {
   font-weight: 400; }
 
 header {
-  height: 750px; }
+  height: 800px; }
   header .side-left {
-    height: 750px; }
+    height: 800px; }
     header .side-left .london {
       letter-spacing: 4px;
       color: #4C5E89;
       font-weight: 700; }
   header .side-right {
-    background: url("../img/bg.jpg");
+    background: url("../img/img-1.jpeg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center bottom;
-    height: 750px;
-    border-left: 6px dashed #fff; }
+    height: 800px;
+     }
   header .logo {
     margin-top: 80px; }
   header nav ul {
@@ -67,7 +67,7 @@ header {
       height: 50%;
       padding: 30px;
       color: #eee;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       background: #4C5E89;
       background-size: cover;
       box-sizing: border-box; }
@@ -75,7 +75,7 @@ header {
       height: 50%;
       padding: 30px;
       color: #eee;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       background: rgba(34, 34, 34, 0.78);
       background-size: cover;
       box-sizing: border-box; }
@@ -83,7 +83,7 @@ header {
       height: 50%;
       padding: 30px;
       color: #333;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       background: rgba(255, 255, 255, 0.78);
       background-size: cover;
       box-sizing: border-box; }
@@ -91,7 +91,7 @@ header {
       height: 50%;
       padding: 30px;
       color: #333;
-      letter-spacing: 5px;
+      letter-spacing: 3px;
       background: rgba(212, 212, 212, 0.78);
       background-size: cover; }
     .fundo-main main i {
@@ -142,8 +142,8 @@ header {
     .clientes .row > .sobre-clientes {
       padding: 60px;
       height: 100%;
-      color: #fff;
-      background: #333; }
+      color: #333;
+      background: #fff; }
       .clientes .row > .sobre-clientes > h2 {
         font-size: 40px; }
       .clientes .row > .sobre-clientes > p {
@@ -169,7 +169,7 @@ header {
   bottom: 5px;
   height: 400px; }
   .frente-msg > .mensagem {
-    height: 400px;
+    height: 300px;
     background: url(http://unisanta.br/images/video-overlay.png);
     color: #fff; }
     .frente-msg > .mensagem h3 {
@@ -198,12 +198,12 @@ header {
   background: #eee;
   padding: 30px; }
   .conteudo p {
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-weight: 400; }
   .conteudo i {
     font-size: 50px; }
   .conteudo > .col-md-6 {
-    padding: 50px; }
+    padding: 30px; }
 
 .more {
   position: relative;
@@ -293,18 +293,26 @@ footer {
     height: 230px;
     padding: 30px;
     font-size: 20px;
-    color: #fff;
-    background: #333; }
+    color: #333;
+    background: #fff; }
     footer > #complemento-footer span {
       font-weight: 700; }
+
     footer > #complemento-footer ul li {
       font-size: 15px;
-      padding-left: 10px; }
+      padding-left: 10px;
+      font-weight: 3px;
+       }
+      
   footer > .copyright {
     padding: 10px;
     margin: 0;
-    background: #222;
-    color: #fff; }
+    background: #fff;
+    color: #333; }
+
+  .lista {
+    margin-top: 40px;
+  }
 
 .scrollDown {
   position: absolute;
@@ -346,7 +354,7 @@ footer {
 .item-3 {
   position: relative;
   display: block;
-  top: 2em;
+  top: 3em;
   margin: 0 auto;
   width: 60%;
   font-size: 3em;
@@ -365,33 +373,33 @@ footer {
 
 @keyframes anim-1 {
   0%, 8.3% {
-    top: -100%;
+    top: -60%;
     opacity: 0; }
   8.3%,25% {
-    top: 25%;
+    top: 45%;
     opacity: 1; }
   33.33%, 100% {
-    top: 110%;
+    top: 130%;
     opacity: 0; } }
 @keyframes anim-2 {
   0%, 33.33% {
-    top: -100%;
+    top: -60%;
     opacity: 0; }
   41.63%, 58.29% {
-    top: 5%;
+    top: 25%;
     opacity: 1; }
   66.66%, 100% {
-    top: 110%;
+    top: 130%;
     opacity: 0; } }
 @keyframes anim-3 {
   0%, 66.66% {
-    top: -100%;
+    top: -50%;
     opacity: 0; }
   74.96%, 91.62% {
-    top: -8%;
+    top: 8%;
     opacity: 1; }
   100% {
-    top: 110%;
+    top: 120%;
     opacity: 0; } }
 /** MENU MOBILE **/
 .simple-text {
@@ -560,6 +568,19 @@ footer {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 @media (max-width: 768px) {
+
+.mapa {
+  display: none;
+}
+
+.frente-msg {
+  display: none;
+}
+
+.lado-menu {
+  display: none;
+}
+  
   .menu-list {
     font-size: 40px; }
 
