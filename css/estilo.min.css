@@ -569,6 +569,14 @@ footer {
 
 @media (max-width: 768px) {
 
+.conteudo {
+  background-color: #fff;
+}
+
+#muda {
+  display: none;
+}
+
 .mapa {
   display: none;
 }
