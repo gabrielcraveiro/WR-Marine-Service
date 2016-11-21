@@ -569,8 +569,11 @@ footer {
 
 @media (max-width: 768px) {
 
+
+
 .conteudo {
   background-color: #fff;
+  text-align: center;
 }
 
 #muda {
