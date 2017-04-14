@@ -1,4 +1,9 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+$cor-1 : #4C5E89;
+$cor-2 : #337ab7;
+$cor-3 : #333;
+
 html,
 body {
 	width: 100%;
@@ -113,8 +118,8 @@ header nav .btn {
 .fundo-main main>.about {
 	height: 50%;
 	padding: 30px;
-	color: #eee;
-	background: #4C5E89;
+	color: white;
+	background: linear-gradient(to bottom right, #4c5e89, #337ab7); // background: #4C5E89;
 	background-size: cover;
 	box-sizing: border-box;
 }
@@ -131,7 +136,7 @@ header nav .btn {
 .fundo-main main>.our {
 	height: 50%;
 	padding: 30px;
-	color: #333;
+	color: #4c5e89;
 	background: rgba(255, 255, 255, 0.78);
 	background-size: cover;
 	box-sizing: border-box;
@@ -141,7 +146,14 @@ header nav .btn {
 	height: 50%;
 	padding: 30px;
 	color: white;
-	background: #337ab7;
+	background: -webkit-linear-gradient(top left, #4c5e89, #337ab7);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top left, #4c5e89, #337ab7);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top left, #4c5e89, #337ab7);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top left, #4c5e89, #337ab7);
+	/* Standard syntax */
 	background-size: cover;
 }
 
@@ -201,7 +213,14 @@ header nav .btn {
 
 .clientes .row>.lado-menu {
 	height: 100%;
-	background: #4C5E89;
+	background: -webkit-linear-gradient(top left, #4c5e89, #337ab7);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top left, #4c5e89, #337ab7);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right left, #4c5e89, #337ab7);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right left, #4c5e89, #337ab7);
+	/* Standard syntax */
 }
 
 .clientes .row>.lado-menu>img {
@@ -227,15 +246,10 @@ header nav .btn {
 }
 
 .clientes .row>.sobre-clientes>.btn-prox-um {
-	background: #222;
-	border: 2px solid #222;
+	background: $cor-1;
+	border: 2px solid $cor-1;
 	color: #fff;
 	padding: 20px;
-}
-
-.clientes .row>.sobre-clientes>.btn-prox-um:hover {
-	border-bottom: 5px solid #111;
-	transition: .5s ease-in;
 }
 
 .frente-msg {
@@ -282,8 +296,9 @@ header nav .btn {
 }
 
 .conteudo {
+	color: $cor-1;
 	height: 700px;
-	background: #eee;
+	background: white;
 	padding: 30px;
 }
 
@@ -323,13 +338,18 @@ header nav .btn {
 	float: right;
 }
 
+.rede-social i {
+	color: $cor-1;
+}
+
 .rede-social>li {
 	padding: 15px 0px 15px 0;
-	background: #ccc;
+	background: white;
 	font-size: 3em;
 	width: 70px;
 	list-style: none;
 	border-left: 10px solid transparent;
+
 }
 
 .rede-social>li:hover {
@@ -658,7 +678,8 @@ footer>.copyright {
 	position: absolute;
 	padding: 20px;
 	cursor: pointer;
-}
+}	
+
 
 .sandwich span {
 	display: block;
@@ -695,6 +716,7 @@ footer>.copyright {
 	-webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
 	transform: translateY(-10px) translateX(0) rotate(-45deg);
 	background: #fff;
+
 }
 
 .sandwich.active:hover .top {
@@ -706,15 +728,15 @@ footer>.copyright {
 }
 
 .sandwich.active:hover .bottom {
-	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 1 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
+
 
 @media (max-width: 1100px) {
 	.fundo-main p {
 		font-size: 14px;
 	}
 }
-
 
 @media (max-width: 768px) {
 	.conteudo {
