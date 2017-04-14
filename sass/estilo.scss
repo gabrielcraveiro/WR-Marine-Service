@@ -427,50 +427,6 @@ footer>.copyright {
 	margin-top: 40px;
 }
 
-.scrollDown {
-	position: absolute;
-	bottom: 100px;
-	left: 50%;
-	width: 30px;
-	height: 50px;
-	margin-left: -15px;
-	border: 2px solid #4C5E89;
-	border-radius: 50px;
-	box-sizing: border-box;
-}
-
-.scrollDown::before {
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	content: '';
-	width: 6px;
-	height: 6px;
-	margin-left: -3px;
-	background-color: #4C5E89;
-	border-radius: 100%;
-	-webkit-animation: 2s infinite scrollDown;
-	-moz-animation: 2s infinite scrollDown;
-	animation: 2s infinite scrollDown;
-	box-sizing: border-box;
-}
-
-@keyframes scrollDown {
-	0% {
-		opacity: 0;
-	}
-	40% {
-		opacity: 1;
-	}
-	80% {
-		transform: translate(0, 20px);
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
 .item-1,
 .item-2,
 .item-3 {
@@ -752,6 +708,13 @@ footer>.copyright {
 .sandwich.active:hover .bottom {
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 1100px) {
+	.fundo-main p {
+		font-size: 14px;
+	}
+}
+
 
 @media (max-width: 768px) {
 	.conteudo {
