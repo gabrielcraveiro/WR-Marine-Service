@@ -46,7 +46,7 @@
 			});
 
 		    $( "#muda" ).click(function(){
-			  $( "#text" ).text( "Uma empresa que foi criada com o intuito de promover o serviço de Port-captain sendo responsavelpelo supervisionamento das cargas donavio. Além de oferecer planejamento e calculo de estabilidade para uma perfeita estivagem e amarração de carga. Com os melhores profissionais do mercado atual à sua disposição, além de realizar um rapido agendamendo de estivagem de qualquer tipo de carga a sua escolha." );
+			  $( "#text" ).text( "Uma empresa que foi criada com o intuito de promover o serviço de Port-captain sendo responsável pelo supervisionamento das cargas do navio. Além de oferecer planejamento e calculo de estabilidade para uma perfeita estivagem e amarração de carga. Com os melhores profissionais do mercado atual à sua disposição, além de realizar um rapido agendamendo de estivagem de qualquer tipo de carga a sua escolha." );
 			  $( "#muda" ).fadeOut(0);
 			  $( "#volta" ).fadeIn(1000);
 			});
