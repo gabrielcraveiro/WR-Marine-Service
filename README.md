@@ -11,7 +11,7 @@ Projeto da faculdade em conjunto com a empresa carioca WR Marine Service, que at
 
 **Logo e Site** :
 
-Para o logo foi então realizada a vetorização do desenho e a correção de erros em cores e traços.
+Para o logo foi então realizada a vetorização e adaptação do desenho e a correção de erros em cores e traços.
 
 ![Logo](http://imgur.com/ZaJULM1.png)
 
